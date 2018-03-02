@@ -1,95 +1,102 @@
+
+
 <!doctype html>
 <html lang="fr">
-   
-   <head>
-        <title>Michou voyage</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="projet1.css">
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    
-    <body>
-<div class="container">
-    <header>
-                
-            <h1>Le Blog de Michou ! </h1>
-      
-        <!-- BAR NAV A CREER NORMALEMENT PAR YVAN -->
-               <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">Le blog à Michou</a>
-
-
-    <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Destinations
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Sydney</a>
-        <a class="dropdown-item" href="#">San Francisco</a>
-        <a class="dropdown-item" href="#">Bangkok</a>
-        <a class="dropdown-item" href="#">Nairobi</a>
-      </div>
-    </li>
-  </ul>
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#">A Propos</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
-    </li>
-</nav>
-                
-    </header>
-    
-<hr>
-
-    <section id="articles">
+  <head>
+    <title>Michou voyage</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="projet1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Le Blog de Michou ! </h1>
+      <!-- BARRE NAV <div class="col-12">
+          <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">Le blog à Michou</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Destinations</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Sydney</a>
+                <a class="dropdown-item" href="#">San Francisco</a>
+                <a class="dropdown-item" href="#">Bangkok</a>
+                <a class="dropdown-item" href="#">Nairobi</a>
+              </div>
+            </li>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">A Propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+       </div> --> 
+         <div class="topnav" id="myTopnav">
+  <a href="#Menu" class="active">Menu</a>
+  <a href="#Destination">Destination</a>        
+  <a href="#A propos">A propos</a>
+  <a href="contact">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div> 
+      </header>
+      <hr>
+      <section id="articles">
         <div class="row">
-            <div class="col-md-6">
+          <div class="col-sm-12 col-md-6">
             <h4>A la découverte de San Francisco</h4>
-                <p> <img src="BLOG/sf1.jpg" class="img-fluid" /> <br/>
-        San Francisco, en Californie du Nord, est une ville vallonnée à la pointe d'une péninsule entourée par l'océan Pacifique et la baie de San Francisco. Elle est célèbre pour son brouillard permanent, l'emblématique pont du Golden Gate, ses Cable Cars et ses maisons victoriennes colorées. La Transamerica Pyramid, située dans le quartier financier, est le gratte-ciel le plus distinctif de la ville. Dans la baie se trouve l'île d'Alcatraz, qui abrite l'ancienne prison. <br/> 
-                    <a href="https://pageSf">suite article</a> </p>
-            </div>
-            
-            <div class="col-md-6">
+            <p> <img src="BLOG/sf1.jpg" class="img-fluid" /> <br/>
+              San Francisco, en Californie du Nord, est une ville vallonnée à la pointe d'une péninsule entourée par l'océan Pacifique et la baie de San Francisco. Elle est célèbre pour son brouillard permanent, l'emblématique pont du Golden Gate, ses Cable Cars et ses maisons victoriennes colorées. La Transamerica Pyramid, située dans le quartier financier, est le gratte-ciel le plus distinctif de la ville. Dans la baie se trouve l'île d'Alcatraz, qui abrite l'ancienne prison. <br/> 
+              <a href="https://pageSf">suite article</a>
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6">
             <h4>Sydney la belle</h4>
-                <p> <img src="BLOG/sydney1.jpg" class="img-fluid" /> <br/>
-      Sydney, capitale de la Nouvelle-Galles du Sud et l'une des plus grandes villes d'Australie, est renommée pour son opéra situé dans le port, avec son design distinctif en forme de voiles. Le vaste Darling Harbour et le plus petit port de Circular Quay sont des pôles majeurs de la vie au bord de l'eau, à proximité du Harbour Bridge et des jardins botaniques royaux. La plate-forme extérieure de Sydney Tower, le Skywalk, offre une vue à 360 degrés sur la ville et ses banlieues.<br/>
-          <a href="https://pageSDNEY">suite article</a> </p>
-            </div>
-            
-            <div class="col-md-6">
+            <p> <img src="BLOG/sydney1.jpg" class="img-fluid" /> <br/>
+              Sydney, capitale de la Nouvelle-Galles du Sud et l'une des plus grandes villes d'Australie, est renommée pour son opéra situé dans le port, avec son design distinctif en forme de voiles. Le vaste Darling Harbour et le plus petit port de Circular Quay sont des pôles majeurs de la vie au bord de l'eau, à proximité du Harbour Bridge et des jardins botaniques royaux. La plate-forme extérieure de Sydney Tower, le Skywalk, offre une vue à 360 degrés sur la ville et ses banlieues.<br/>
+              <a href="https://pageSDNEY">suite article</a> 
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6">
             <h4>Ce qui se passe à Bangkok...</h4>
-                <p> <img src="BLOG/Bangkok.jpg" class="img-fluid" /> <br/>
-      Bangkok, la capitale de la Thaïlande, est une grande ville connue pour ses sanctuaires richement décorés et ses rues animées. Rempli de bateaux, le fleuve Chao Praya alimente son réseau de canaux et passe par le district royal de Rattanakosin, où se trouvent l'opulent Grand Palais et son temple sacré Wat Phra Kaeo.<br/> 
-          <a href="https://pageFictive">suite article</a> </p>
-            </div>
-            
-            <div class="col-md-6">
+            <p> <img src="BLOG/Bangkok.jpg" class="img-fluid" /> <br/>
+              Bangkok, la capitale de la Thaïlande, est une grande ville connue pour ses sanctuaires richement décorés et ses rues animées. Rempli de bateaux, le fleuve Chao Praya alimente son réseau de canaux et passe par le district royal de Rattanakosin, où se trouvent l'opulent Grand Palais et son temple sacré Wat Phra Kaeo.<br/> 
+              <a href="https://pageFictive">suite article</a> 
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6">
             <h4>Wild Nairobi</h4>
             <p> <img src="BLOG/nairobi.jpg" class="img-fluid" /> 
-      Nairobi est la capitale du Kenya. Outre son centre urbain, la ville comporte aussi le parc national de Nairobi, une grande réserve où vivent des rhinocéros noirs, une espèce menacée, ainsi que des girafes, des zèbres et des lions. Juste à côté se trouve un orphelinat pour éléphants réputé, géré par la David Sheldrick Wildlife Trust. Nairobi est également souvent le point de départ des safaris au Kenya.<br/> 
-            <a href="https://pageFictive">suite article</a> </p>
-            </div>
-            
-      </div>
- </section>
- <hr>
- <footer>
-  <p>
-  @copyright ... + liens
-  </p>
-</footer>
-</div> 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-
+              Nairobi est la capitale du Kenya. Outre son centre urbain, la ville comporte aussi le parc national de Nairobi, une grande réserve où vivent des rhinocéros noirs, une espèce menacée, ainsi que des girafes, des zèbres et des lions. Juste à côté se trouve un orphelinat pour éléphants réputé, géré par la David Sheldrick Wildlife Trust. Nairobi est également souvent le point de départ des safaris au Kenya.<br/> 
+              <a href="https://pageFictive">suite article</a> 
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <footer>
+        <div id="scrollUp">
+          <a href="#top"><img src="BLOG/to_top.png"/></a>
+        </div>
+        <p>@copyright ... + liens</p>
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script> function myFunction() {
+    var x=document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";} 
+  else {
+        x.className = "topnav";}}
+    </script>
+    
+  </body>
 </html>
+
