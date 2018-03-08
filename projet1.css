@@ -1,13 +1,21 @@
 .container{
     
-    padding-right: 15px;
+  padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-    margin-left: auto;
-    text-align: justify;      
+  margin-left: auto;
+  margin-top: 15px;
+  text-align: justify;      
+}
+
+.card-text{
+  hyphens: auto;
+}
+
+.sous-image{
+  margin-top: 20px;
 }
  
-
 /* JS bouton scrool */
 #scrollUp {
 position: fixed;
