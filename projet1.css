@@ -13,7 +13,7 @@
 }
 
 .sous-image{
-  margin-top: 15px;
+  margin-top: 20px;
 }
  
 /* JS bouton scrool */
@@ -47,7 +47,7 @@ opacity: 1;
 footer{
   background:#333333;
   padding:10px;
-  }
+ }
 .copyright{
   color:white;
   text-align:center;
