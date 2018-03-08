@@ -11,7 +11,6 @@
 .card-text{
   hyphens: auto;
 }
-
 .sous-image{
   margin-top: 20px;
 }
@@ -27,6 +26,7 @@ opacity: 1;
 #scrollUp img {
     width: 50px;
     height: 50px;
+/* CSS pied de page */
 }
 .btn-facebook{ 
   background:#3b5998;
@@ -55,9 +55,48 @@ footer{
 li{
   display:inline;
  }
+/*CSS page contact */
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+.container apropos {
+  margin-top: 2rem;
+}
+
+.row s7 > div {
+  display: flex;
+}
+
+.card-title{
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+.card {
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: justify;
+}
+
+.s7 {
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+.s7 .card {
+  border: solid 5px #666;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding: 1em 2em;
+}
+
+.s7 .card-icon {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%2020%2020%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xml%3Aspace%3D%22preserve%22%20style%3D%22fill-rule%3A%20evenodd%3B%20clip-rule%3A%20evenodd%3B%20stroke-linejoin%3A%20round%3B%20stroke-miterlimit%3A%201.41421%3B%20#%22%20fill%3D%22#%22%3E%3Cpath%20d%3D%22M16.794%2C4.5c-7.546%2C-14.034%20-22.642%2C10.473%20-13.241%2C14.22c7.332%2C2.921%2018.308%2C-3.713%2015.372%2C-12.497c-2.83%2C-8.471%20-18.037%2C-6.816%20-18.67%2C2.264c-0.703%2C10.082%2012.738%2C14.476%2019.496%2C8.778c0.065%2C-0.054%20-0.021%2C-0.17%20-0.089%2C-0.12c-5.46%2C4.12%20-14.011%2C2.67%20-17.765%2C-3.207c-3.347%2C-5.239%200.039%2C-10.82%205.296%2C-12.396c5.422%2C-1.626%2011.487%2C1.178%2011.896%2C7.418c0.396%2C6.029%20-5.41%2C8.837%20-10.222%2C9.727c-3.077%2C0.57%20-6.818%2C0.125%20-7.744%2C-3.482c-0.701%2C-2.732%200.536%2C-5.856%201.811%2C-8.19c3.152%2C-5.772%209.616%2C-9.228%2013.753%2C-2.45c0.042%2C0.071%200.147%2C0.008%200.107%2C-0.065Z%22%20style%3D%22fill%3A%20#%3B%20fill-rule%3A%20nonzero%3B%22%2F%3E%3C%2Fsvg%3E") no-repeat center;
+  height: 3.5rem;
+}
+
 .btn:hover{
 color:black;
 }
+
 .button{
   text-align: center;
 }
+
