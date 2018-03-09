@@ -35,7 +35,7 @@
 }
 
 /* CSS pied de page */
-.btn-facebook
+.btn-facebook,.btn-fb
 {
 	background:#3b5998;
 	color:white;
@@ -46,7 +46,6 @@
 	background:#517fa4;
 	color:white;
 }
-<<<<<<< HEAD
 
 .btn-yt
 {
@@ -91,7 +90,7 @@ li
 {
 	margin-bottom: 30px;
 	width: 100%;
-	text-align: center;
+  hyphens: auto;
 }
 
 .card
@@ -110,14 +109,10 @@ li
 {
 	border: solid 5px #666;
 	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-	padding: 1em 2em;
-}
+	padding: 1em;
+  }
 
 
-h3 essai
-{
-	text-align: center;
-}
 
 
 
