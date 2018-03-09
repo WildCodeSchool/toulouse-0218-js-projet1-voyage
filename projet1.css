@@ -111,11 +111,6 @@ li
 	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 	padding: 1em;
   }
-
-
-
-
-
 .btn:hover{
 color:black;
 }
@@ -123,4 +118,7 @@ color:black;
 .button{
   text-align: center;
 }
-
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
