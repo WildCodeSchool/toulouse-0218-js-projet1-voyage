@@ -118,7 +118,12 @@ color:black;
 .button{
   text-align: center;
 }
-.carousel-inner img {
-      width: 100%;
-      height: 100%;
+
+@media screen and (min-width: 1200px){
+  .container{
+    max-width: 100%;
   }
+  body > .container{
+    max-width: 95%;
+  }
+}
