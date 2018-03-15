@@ -120,3 +120,11 @@ color:black;
   text-align: center;
 }
 
+@media screen and (min-width: 1200px){
+  .container{
+    max-width: 100%;
+  }
+  body > .container{
+    max-width: 95%;
+  }
+}

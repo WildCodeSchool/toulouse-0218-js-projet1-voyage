@@ -15,7 +15,7 @@
 				<!-- MENU DE NAVIGATION RESPONSIVE -->
 				<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-					<a class="navbar-brand" href="pagepresentation.html">Le blog de Michou</a>
+					<a class="navbar-brand" href="index.html">Le blog de Michou</a>
 					<div class="collapse navbar-collapse" id="nav-content">
 						<ul class="navbar-nav">
 							<div class="destination">
@@ -79,96 +79,114 @@
 			</div>
 			<h3 class="col-xs-4 d-md-none">Formulaire de contact</h3>
 			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="well well-sm">
-							<form>
-								<div class="row">
-									<div class="col-sm-12">
-										<div class="form-group">
-											<label for="name">NOM, Prénom</label>
-											<input type="text" class="form-control" placeholder="Michou MICHOU" required="required" />
-										</div>
-										<div class="form-group">
-											<label for="email">Votre e-mail</label>
-											<div class="input-group">
-												<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-												<input type="email" class="form-control" placeholder="michouthebest@example.com" required="required" />
+				<h2>Contact</h2>
+				<!-- Button to Open the Modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Michou?  </button>
+				<!-- The Modal -->
+				<div class="modal fade" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="well well-sm">
+													<form>
+														<div class="row">
+															<div class="col-sm-12">
+																<div class="form-group">
+																	<label for="name">NOM, Prénom</label>
+																	<input type="text" class="form-control" placeholder="Michou MICHOU" required="required" />
+																</div>
+																<div class="form-group">
+																	<label for="email">Votre e-mail</label>
+																	<div class="input-group">
+																		<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+																		<input type="email" class="form-control" placeholder="michouthebest@example.com" required="required" />
+																	</div>
+																</div>
+																<div class="form-group">
+																	<label for="subject">Objets</label>
+																	<select id="subject" name="subject" class="form-control" required="required">
+																		<option value="na" selected="">Selectionnez</option>
+																		<option>Suggestions</option>
+																		<option>Informations complémentaires</option>
+																		<option>Complimenter Michou</option>
+																		<option>Autres</option>
+																	</select>
+																</div>
+															</div>
+															<div class="col-sm-12">
+																<div class="form-group">
+																	<label for="name">Message</label>
+																	<textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+																</div>
+															</div>
+															<div class="col-sm-12">
+																<button type="submit" class="btn btn-primary pull-right" id="btnContactUs">Send Message</button>
+															</div>
+														</div>
+													</form>
+												</div>
 											</div>
 										</div>
-										<div class="form-group">
-											<label for="subject">Objets</label>
-											<select id="subject" name="subject" class="form-control" required="required">
-												<option value="na" selected="">Selectionnez</option>
-												<option>Suggestions</option>
-												<option>Informations complémentaires</option>
-												<option>Complimenter Michou</option>
-												<option>Autres</option>
-											</select>
-										</div>
-									</div>
-									<div class="col-sm-12">
-										<div class="form-group">
-											<label for="name">Message</label>
-											<textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<div class="col-sm-12">
-										<button type="submit" class="btn btn-primary pull-right" id="btnContactUs">Send Message</button>
 									</div>
 								</div>
-							</form>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<hr>
-			<footer>
-                        <!-- BOUTON RETOUR HAUT DE PAGE -->
-                        <div id="scrollUp">
-                            <a href="#top"><img src="BLOG/to_top.png"></a>
-                        </div>
-                        <!-- BOUTONS RESEAUX SOCIAUX -->
-                        <ul class="button d-none d-sm-none d-md-block">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6">
-                                    <li>
-                                        <a href="https://www.facebook.com/CabaretMichou/?hc_ref=ARSc5zybNdwyEAPfPUQ32J0-pfRyCReW_eaW2PMsOu36Xnh-zdAtU3fX2LkRBMMBj4U"  target="blank" title="Facebook" class="btn btn-facebook btn-md"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
-                                    </li>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <li>
-                                        <a href="https://www.instagram.com/explore/tags/michou/?hl=fr" target="blank" title="Instagram" class="btn btn-ins btn-md"><i class="fa fa-instagram pr-1"></i> Instagram</a>
-                                    </li>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <li>
-                                        <a href="https://www.youtube.com/?hl=fr&gl=FR" target="blank" title="Youtube" class="btn btn-yt btn-md"><i class="fa fa-youtube pr-1"></i>Youtube</a>
-                                    </li>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <li>
-                                        <a href="https://plus.google.com/" target="blank" title="Google+" class="btn btn-gplus btn-md"><i class="fa fa-google-plus pr-1"></i> Google+</a>
-                                    </li>
-                                </div>
-                            </div>
-                        </ul>
-                        <!-- BOUTONS RESEAUX SOCIAUX RESPONSIVE -->
-                        <div class="button col-xs-4 d-md-none">
-                            <a href="https://www.facebook.com/CabaretMichou/?hc_ref=ARSc5zybNdwyEAPfPUQ32J0-pfRyCReW_eaW2PMsOu36Xnh-zdAtU3fX2LkRBMMBj4U" type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
-                            <a a href="https://plus.google.com/" type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
-                            <a href="https://www.instagram.com/explore/tags/michou/?hl=fr" type="button" class="btn-floating btn-sm btn-ins"><i class="fa fa-instagram"></i></a>
-                            <a href="https://www.youtube.com/?hl=fr&gl=FR" type="button" class="btn-floating btn-sm btn-yt"><i class="fa fa-youtube"></i></a>
-                        </div>
-                        <p class="copyright">
-                            @ 2018 Le blog de Michou Tous droits réservés Mentions légales
-                        </p>
-                    </footer>
 		</div>
-		<!-- SCRIPT JAVA JQUERY POUR BOOTSTRAP -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	</body>
+		<hr>
+		<footer>
+			<!-- BOUTON RETOUR HAUT DE PAGE -->
+			<div id="scrollUp">
+				<a href="#top"><img src="BLOG/to_top.png"></a>
+			</div>
+			<!-- BOUTONS RESEAUX SOCIAUX -->
+			<ul class="button d-none d-sm-none d-md-block">
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<li>
+							<a href="https://www.facebook.com/CabaretMichou/?hc_ref=ARSc5zybNdwyEAPfPUQ32J0-pfRyCReW_eaW2PMsOu36Xnh-zdAtU3fX2LkRBMMBj4U"  target="blank" title="Facebook" class="btn btn-facebook btn-md"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
+						</li>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<li>
+							<a href="https://www.instagram.com/explore/tags/michou/?hl=fr" target="blank" title="Instagram" class="btn btn-ins btn-md"><i class="fa fa-instagram pr-1"></i> Instagram</a>
+						</li>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<li>
+							<a href="https://www.youtube.com/?hl=fr&gl=FR" target="blank" title="Youtube" class="btn btn-yt btn-md"><i class="fa fa-youtube pr-1"></i>Youtube</a>
+						</li>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<li>
+							<a href="https://plus.google.com/" target="blank" title="Google+" class="btn btn-gplus btn-md"><i class="fa fa-google-plus pr-1"></i> Google+</a>
+						</li>
+					</div>
+				</div>
+			</ul>
+			<!-- BOUTONS RESEAUX SOCIAUX RESPONSIVE -->
+			<div class="button col-xs-4 d-md-none">
+				<a href="https://www.facebook.com/CabaretMichou/?hc_ref=ARSc5zybNdwyEAPfPUQ32J0-pfRyCReW_eaW2PMsOu36Xnh-zdAtU3fX2LkRBMMBj4U" type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
+				<a a href="https://plus.google.com/" type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
+				<a href="https://www.instagram.com/explore/tags/michou/?hl=fr" type="button" class="btn-floating btn-sm btn-ins"><i class="fa fa-instagram"></i></a>
+				<a href="https://www.youtube.com/?hl=fr&gl=FR" type="button" class="btn-floating btn-sm btn-yt"><i class="fa fa-youtube"></i></a>
+			</div>
+			<p class="copyright">
+				@ 2018 Le blog de Michou Tous droits réservés Mentions légales
+			</p>
+		</footer>
+	</div>
+	<!-- SCRIPT JAVA JQUERY POUR BOOTSTRAP -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
-
