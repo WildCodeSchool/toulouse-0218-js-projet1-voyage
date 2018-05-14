@@ -1,10 +1,8 @@
-# toulouse-0218-js-projet1-voyage
-
 Réaliser un site (type blog)
 sur un sujet libre
 Quel que soit le sujet choisi, il faut que chaque article soit constitué de:
 une photo (de qualité),
-un titre, 
+un titre,
 un résumé,
 le contenu complet
 optionnel : un auteur
@@ -20,4 +18,3 @@ Page “à propos” : petit descriptif du site, et liste des contributeurs avec
 Page “par auteur” : même disposition que l’accueil, avec articles d’un seul auteur
 Pied de page commun avec : liens vers articles, réseaux sociaux, etc.
 Slideshow sur page d’accueil
-
