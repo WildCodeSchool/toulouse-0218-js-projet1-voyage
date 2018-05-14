@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-/* Container de la page d'accueil */
-.container{
-    
-    padding-right: 15px;
 =======
 /* MISE EN PAGE DU BODY */
 body
@@ -13,7 +8,6 @@ body
 body > .container
 {
 	padding-right: 15px;
->>>>>>> navigation
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
@@ -166,6 +160,7 @@ li
 .accordian ul:hover li
 {
 	width: 40px;
+=======
 }
 
 .accordian ul li:hover
@@ -201,7 +196,7 @@ li
 	box-shadow: 0 25px 30px rgba(0,0,0,.5);
 }
 
-/*photo page a propos*/
+/*photo michou page a propos*/
 .imgeBoxm
 {
 	background: #f00;
@@ -252,8 +247,6 @@ li
 	width:100%;
 }
 
-<<<<<<< HEAD
-=======
 .single_portfolio_text:hover .portfolio_images_overlay
 {
 	top:5%;
@@ -272,6 +265,105 @@ li
 	position: absolute;
 	transition:.6s;
 }
+
+.portfolio_images_overlay h6
+{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 900;
+	border: 2px solid #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* map google */
+#map
+{
+	width: 1500px;
+	height: 300px;
+}
+
+/* bouton contact */
+.button_custom
+{
+	background-color: cadetblue;
+	margin-left: 45%;
+	font-size: 25px;
+}
+
+/*ARTICLE AVEC IMAGE DE FOND SF ET SY*/
+.contentsf:hover
+{
+	color: black;
+	text-align: justify;
+	background-color: #B5B9BA;
+	background-image: none;
+	position: relative;
+	opacity: 1.7;
+}
+
+.contentsf
+{
+	color:black;
+	font-weight: bold;
+	background: no-repeat;
+	background-image: url(BLOG/fdtsf.jpg);
+	opacity: 1;
+	position: relative;
+}
+
+.contentsy:hover
+{
+	color: black;
+	text-align: justify;
+	background-color: #B5B9BA;
+	background-image: none;
+	position: relative;
+	opacity: 1.7;
+}
+
+.contentsy
+{
+	color:white;
+	font-weight: bold;
+	background: no-repeat;
+	background-image: url(BLOG/syfd.jpg);
+	opacity: 0,1;
+	position: relative;
+}
+
+@media (max-width: 575.98px)
+{
+	.contentsf
+	{
+		background:none;
+		font-weight: normal;
+	}
+
+	.contentsf:hover
+	{
+		background-color: white;
+	}
+}
+
+@media (max-width: 575.98px)
+{
+	.contentsy
+	{
+		background:none;
+		font-weight: normal;
+		color:black;
+	}
+
+	.contentsy:hover
+	{
+		background-color: white;
+	}
+
+}
+
+
 
 .portfolio_images_overlay h6
 {
